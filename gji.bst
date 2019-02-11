@@ -1,0 +1,1 @@
+/u/fjsimons/IFILES/LATEX/BSTYLES/gji.bst
