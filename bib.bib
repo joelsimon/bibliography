@@ -1,6 +1,14 @@
 % https://mjl.clarivate.com/home?PC=MASTER
-% https://images.webofknowledge.com/images/help/WOS/A_abrvjt.html                                                                                                                                
-@string{AAS = {Ann.~Appl.~Stat.}}
+% https://images.webofknowledge.com/images/help/WOS/A_abrvjt.html                                               % The rules of Frederik
+% 1. Separate middle names with space (F. A.)
+% 2. Always use strings without {}
+% 3. Journal titles are always lower case unless with {}
+% 4. Publisher for books only
+% 5. Title case for book titles
+% 6. Sort and align ref.bib
+% 7. Never trust Google scholar
+% 8. Check and protect the cases of the beginning of the subtitles
+% 9. Page ranges are double dashes                                                                              @string{AAS = {Ann.~Appl.~Stat.}}
 @string{ACHA = {Appl.~Comput.~Harmon.~Anal.}}
 @string{ACM = {ACM T.~Math.~Software}}
 @string{AGG = {Ann.~Geophys.--Germany}} %ANNALES GEOPHYSICAE
@@ -4542,7 +4550,7 @@
   journal =	 SRL,
   volume =	 81,
   number =	 5,
-  pages =	 {689-693, doi: 10.1785/gssrl.81.5.689},
+  pages =	 {689--693, doi: 10.1785/gssrl.81.5.689},
   year =	 2010
 }
 
@@ -4560,6 +4568,18 @@
   number =	 1,
   pages =	 {77--81, doi: 10.1785/0220130098},
   year =	 2014
+}
+
+@Article{Burdick+2017,
+  author =	 {Scott Burdick and Vedran Lekic},
+  title =	 {Velocity variations and uncertainty from
+                  transdimensional {\textit{P}}-wave tomography of
+                  {N}orth {A}merica},
+  journal =	 GJI,
+  volume =	 209,
+  number =	 2,
+  pages =	 {1337--1351},
+  year =	 {2017, doi: 10.1093/gji/ggx091},
 }
 
 @PhdThesis{Burg75,
@@ -8877,6 +8897,16 @@
   pages =	 {E12S04, doi: 10.1029/2005JE002404}
 }
 
+@Article{Dushaw2019,
+  title =	 {Ocean acoustic tomography in the {N}orth {A}tlantic},
+  author =	 {Brian D. Dushaw},
+  journal =	 JAOT,
+  volume =	 36,
+  number =	 2,
+  pages =	 {183--202, doi: 10.1175/JTECH-D-18-0082.1},
+  year =	 2019
+}
+
 @Article{Dutton+2015,
   author =	 {A. Dutton and A. E. Carlson and A. J. Long and
                   G. A. Milne and P. U. Clark and R. DeConto and
@@ -9649,6 +9679,8 @@
   pages =	 {doi: {10.1126/science.1162641}}
 }
 
+
+
 @Article{Falsaperla+2002,
   author =	 {Susanna Falsaperla and J. Wassermann and
                   F. Scherbaum},
@@ -9673,8 +9705,6 @@
   volume =	 38,
   pages =	 {L03403, doi: 10.1029/2010GL046442}
 }
-
-
 
 @Article{Fan+2000,
   author =	 {Jianqing Fan and Hui-Nien Hung and Wing-Hung Wong},
@@ -12759,6 +12789,18 @@
   pages =	 "149--167"
 }
 
+@Conference{Hansen2000,
+  author =	 "P. C. Hansen",
+  title =	 "The {L}-curve and its use in the numerical treatment
+                  of inverse problems",
+  year =	 "2000",
+  booktitle =	 "Computational Inverse Problems in Electrocardiology",
+  volume =	 "4",
+  series =	 "Advances in Computational Bioengineering",
+  editor =	 "P. Johnston",
+  publisher =	 "{WIT} Press",
+}
+
 @Article{Gurnis+98,
   author =	 "Michael Gurnis and R. Dietmar M{\"u}ller and Louis
                   Moresi",
@@ -12778,18 +12820,6 @@
   year =	 1986,
   volume =	 323,
   pages =	 {317--320, doi: {10.1038/323317a0}}
-}
-
-@Conference{Hansen2000,
-  author =	 "P. C. Hansen",
-  title =	 "The {L}-curve and its use in the numerical treatment
-                  of inverse problems",
-  year =	 "2000",
-  booktitle =	 "Computational Inverse Problems in Electrocardiology",
-  volume =	 "4",
-  series =	 "Advances in Computational Bioengineering",
-  editor =	 "P. Johnston",
-  publisher =	 "{WIT} Press",
 }
 
 @Article{Gurnis88,
@@ -13214,6 +13244,8 @@
   year =	 2005,
   volume =	 163,
   pages =	 {18--25, doi: {10.1111/j.1365-246X.2005.02756.x}}
+},
+  year =	 2008
 }
 
 @Article{Han+2006a,
@@ -13238,8 +13270,6 @@
   year =	 2006,
   volume =	 313,
   pages =	 {658--662, doi: {10.1126/science.1128661}}
-},
-  year =	 2008
 }
 
 @Article{Han+2007,
@@ -15986,7 +16016,7 @@
   volume =	 40,
   number =	 11,
   pages =	 "2757--2765, doi: 10.1109/78.165662"
-}
+},
 
 @Article{Ji+96,
   author =	 "Shaocheng Ji and St\'ephane Rondenay and Marianne
@@ -16011,7 +16041,7 @@
   year =	 2015,
   volume =	 260,
   pages =	 {215--231}
-},
+}
 
 @Article{Johnsen+2008,
   author =	 {S\"onke Johnsen and Kenneth J. Lohmann},
@@ -22454,6 +22484,7 @@
   pages =	 "6261--6273"
 }
 
+
 @Article{McKenzie79,
   author =	 {Dan P. McKenzie},
   title =	 {Finite deformation during fluid flow},
@@ -22471,7 +22502,6 @@
   volume =	 307,
   pages =	 {616--618}
 }
-
 
 @Article{McKenzie94,
   author =	 "Dan McKenzie",
@@ -23418,6 +23448,7 @@
   pages =	 "167--176"
 }
 
+
 @Article{Modrak+2016,
   author =	 "Ryan Modrak and Jeroen Tromp",
   title =	 "Seismic waveform inversion best practices:
@@ -23438,7 +23469,6 @@
   address =	 {Jackson Hole, WY},
   pages =	 {399--408}
 }
-
 
 @Article{Moholdt+2010,
   author =	 "Geir Moholdt and Christopher Nuth and Jon Ove Hagen
@@ -24720,6 +24750,7 @@
   pages =	 {2244--2246, doi: 10.1126/science.287.5461.2244}
 }
 
+
 @Article{Nishimura+85,
   author =	 "Clyde E. Nishimura and D. W. Forsyth",
   title =	 "Anomalous {L}ove-wave phase velocities in the
@@ -24742,7 +24773,6 @@
   volume =	 94,
   pages =	 "479--501"
 }
-
 
 @Article{Nishimura+89,
   author =	 "C. E. Nishimura and Donald W. Forsyth",
@@ -26870,6 +26900,7 @@
   address =	 {Hoboken, New Jersey}
 }
 
+
 @Article{Piromallo+2001,
   author =	 "Claudia Piromallo and Alain P. Vincent and David
                   A. Yuen and Andrea Morelli",
@@ -26892,7 +26923,6 @@
   pages =	 {City of {G}old: {A}rchaeological excavations at
                   {P}olis {C}hrysochous, {C}yprus}
 }
-
 
 @Article{Plattner+2012-egs,
   author =	 {Alain Plattner and Frederik J. Simons},
@@ -30248,7 +30278,7 @@
   year =	 1999,
   volume =	 156,
   pages =	 {227--240}
-}
+},
 
 @Article{Sebilleau98,
   author =	 {Didier S{\'e}billeau},
@@ -30267,7 +30297,7 @@
   volume =	 73,
   number =	 4,
   pages =	 {115--121}
-},
+}
 
 @Article{Seibert+2016-egs,
   author =	 {Katrin Seibert and Volker Michel and Frederik
@@ -30554,7 +30584,7 @@
   publisher =	 CUP,
   year =	 1999,
   address =	 {Cambridge, UK}
-}
+},
 
 @Article{Shen+98a,
   author =	 {Yang Shen and Anne F. Sheehan and Kenneth G. Dueker
@@ -30577,7 +30607,7 @@
   year =	 1998,
   volume =	 395,
   pages =	 {62--65, doi: 10.1038/25714}
-},
+}
 
 @Article{Sheng+2006,
   author =	 {Jianming Sheng and Alan Leeds and Maike Buddensiek
@@ -31062,7 +31092,9 @@
                   autonomous oceanic floats},
   year =	 2020,
   journal =	 BSSA,
-  pages =	 {1--28, 10.1785/0120190173}
+  volume =	 100,
+  number =	 "3",
+  pages =	 {970--997, 10.1785/0120190173}
 }
 
 @Article{Simons+2000,
@@ -31562,7 +31594,7 @@
   number =	 3,
   pages =	 {232, doi: 10.1190/tle37030232.1}
 }
-
+ 
 @Article{Simons2019,
   author =	 {Frederik J. Simons},
   title =	 {{W}aves and {R}ays in {S}eismology: {A}nswers to
@@ -31587,7 +31619,7 @@
   number =	 {B8},
   pages =	 {8348--8372}
 }
- 
+
 @Article{Simpson2001,
   author =	 "Fiona Simpson",
   title =	 "Resistance to mantle flow inferred from the
@@ -32315,6 +32347,8 @@
   pages =	 {12055--12065, doi: 10.1029/JB093iB10p12055}
 }
 
+@Comment Chou C. W. and Booker, J. R., (1979). A Backus-Gilbert approach to inversion of travel time data for three-dimensional velocity structure, Geophys. J. R. astr. Soc., 59, 325-344.
+
 @Article{Snieder88b,
   title =	 {Large-scale waveform inversions of surface waves for
                   lateral heterogeneity: 2. {A}pplication to surface
@@ -32339,8 +32373,6 @@
   number =	 "B5",
   pages =	 "2094, doi: {10.1029/2001JB000498}"
 }
-
-@Comment Chou C. W. and Booker, J. R., (1979). A Backus-Gilbert approach to inversion of travel time data for three-dimensional velocity structure, Geophys. J. R. astr. Soc., 59, 325-344.
 
 @Article{Sobolev+99,
   author =	 "Stephan V. Sobolev and Alain Gr{\'e}sillaud and
@@ -37955,6 +37987,7 @@
   pages =	 {506--517, doi: {10.1016/j.icarus.2007.10.026}}
 }
 
+
 @Article{Wieczorek2014,
   author =	 "Mark Wieczorek",
   title =	 "{SHTOOLS: Version 2.9.1}",
@@ -37977,7 +38010,6 @@
   volume =	 10,
   address =	 {Amsterdam, Neth.}
 }
-
 
 @Article{Wielandt+82a,
   author =	 {E. Wielandt and Leon Knopoff},
@@ -39906,6 +39938,7 @@
   pages =	 "1788--1793"
 }
 
+
 @Article{Zuber+2000b,
   author =	 "Maria T. Zuber and David E. Smith and Andrew
                   F. Cheng and James B. Garvin and Oded Aharonson and
@@ -39931,7 +39964,6 @@
   number =	 "B7",
   pages =	 "9353--9367"
 }
-
 
 @Article{Zuber+94,
   author =	 "Maria T. Zuber and David E. Smith and Frank
